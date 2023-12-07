@@ -3,7 +3,7 @@ name: Reusable Workflow
 on:
   workflow_call:
     inputs:
-      node:
+      envPAT:
         required: true
         type: string
 
